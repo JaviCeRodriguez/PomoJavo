@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../components/container";
-import Header from "../components/header";
-import Pomodoro from "../components/pomodoro";
+import Container from "../components/Container/container";
+import Header from "../components/Header/header";
+import Pomodoro from "../components/Pomodoro/pomodoro";
 
 const Home = () => {
   return (

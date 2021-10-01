@@ -1,12 +1,13 @@
 import React from "react";
-import Button from "./button";
+import Button from "../Button/button";
+import { Container } from "./pomodoro.styles";
 
 const Pomodoro = () => {
   return (
-    <div>
+    <Container>
       <h1>25:00</h1>
       <Button text="START" />
-    </div>
+    </Container>
   );
 };
 

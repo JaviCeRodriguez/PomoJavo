@@ -1,13 +1,18 @@
 import React from "react";
 import Button from "../Button/button";
-import { Container } from "./pomodoro.styles";
+import { StyledPomodoro } from "./pomodoro.styles";
 
 const Pomodoro = () => {
   return (
-    <Container>
+    <StyledPomodoro>
+      <div className="mode-wrapper">
+        <Button text="Pomodoro" />
+        <Button text="Short" />
+        <Button text="Long" />
+      </div>
       <h1>25:00</h1>
-      <Button text="START" />
-    </Container>
+      <Button text="START" type="full" />
+    </StyledPomodoro>
   );
 };
 

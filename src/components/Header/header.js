@@ -1,14 +1,22 @@
 import React from "react";
+import { StyledHeader } from "./header.styles";
 
 const Header = () => {
   return (
-    <nav>
+    <StyledHeader>
       <div className="logo">PomoJavo</div>
       <ul>
-        <li>Estadísticas</li>
-        <li>Config</li>
+        <li>
+          📊&nbsp;<span>Stats</span>
+        </li>
+        <li>
+          🔮&nbsp;<span>Config</span>
+        </li>
+        <li>
+          👤&nbsp;<span>Login</span>
+        </li>
       </ul>
-    </nav>
+    </StyledHeader>
   );
 };
 

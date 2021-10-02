@@ -5,10 +5,12 @@ import Pomodoro from "../components/Pomodoro/pomodoro";
 
 const Home = () => {
   return (
-    <Container>
+    <React.Fragment>
       <Header />
-      <Pomodoro />
-    </Container>
+      <Container>
+        <Pomodoro />
+      </Container>
+    </React.Fragment>
   );
 };
 
